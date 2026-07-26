@@ -17,11 +17,11 @@ alt="UdayX Signature"/>
   <img src="assets/logos/udayx-logo.svg" width="300" alt="UDAYX"/>
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=22&pause=3000&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+software+that+solves+real-world+problems...;Full+Stack+Developer...;Artificial+Intelligence...;Backend+Engineering..."/>
 
-</p>
+</p> -->
 
 <!-- <h3 align="center">
 Building software that solves real-world problems.
@@ -44,6 +44,7 @@ Building software that solves real-world problems.
 </p>
 
 ---
+## Contribution Calendar
 
 <img src="https://ssr-contributions-svg.vercel.app/_/udayx-dev?chart=3dbar&gap=0.6&scale=2&flatten=0&gradient=false&legend=true&legendPosition=bottomLeft&legendDirection=row&strokeWidth=2&strokeColor=222222&animation=wave&animation_duration=3&animation_delay=0.03&animation_amplitude=24&animation_frequency=0.1&animation_wave_center=19_3&format=svg&weeks=40&theme=neon_horizon&dark=true" width="100%" alt="GitHub Contribution Graph">
 
