@@ -1,4 +1,13 @@
 <!-- ======================== HERO ======================== -->
+<div align="center">
+
+<img
+src="assets/signature/udayx-signature.svg"
+width="320"
+alt="UdayX Signature"/>
+
+</div>
+
 
 <p align="center">
   <img src="assets/banners/banners.svg" width="100%" alt="Banner"/>
