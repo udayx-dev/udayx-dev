@@ -32,15 +32,21 @@ Building software that solves real-world problems.
 </p> -->
 
 <p align="center">
-<a href="https://portfolio-website-p165.vercel.app">Portfolio</a>
-&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="https://github.com/udayx-dev?tab=repositories">Projects</a>
-&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="https://github.com/udayx-dev">GitHub</a>
-&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="https://linkedin.com/in/udayxshinde">LinkedIn</a>
-&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="mailto:shinde.uday538@gmail.com">Email</a>
+  <a href="https://portfolio-website-p165.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://github.com/udayx-dev?tab=repositories">
+    <img src="https://img.shields.io/badge/Projects-C026D3?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/>
+  </a>
+  <a href="https://github.com/udayx-dev">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://linkedin.com/in/udayxshinde">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:shinde.uday538@gmail.com">
+    <img src="https://img.shields.io/badge/Email-FF4FA3?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
 </p>
 
 ---
