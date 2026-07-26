@@ -1,143 +1,168 @@
 <svg width="1600" height="420" viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
-
-<defs>
-
-<linearGradient id="bg" x1="0" x2="1">
-
-<stop offset="0%" stop-color="#0D1117"/>
-
-<stop offset="100%" stop-color="#111827"/>
-
-</linearGradient>
-
-<linearGradient id="blue" x1="0" x2="1">
-
-<stop offset="0%" stop-color="#0078D4"/>
-
-<stop offset="100%" stop-color="#5C2D91"/>
-
-</linearGradient>
-
-</defs>
-
-<rect width="1600" height="420" fill="url(#bg)"/>
-
-<circle cx="1350" cy="50" r="220" fill="#0078D4" opacity=".08"/>
-
-<circle cx="250" cy="370" r="170" fill="#5C2D91" opacity=".07"/>
-
-<line x1="0" y1="350" x2="1600" y2="350"
-stroke="#30363D"/>
-
-<text
-x="100"
-y="120"
-font-size="70"
-font-family="Segoe UI"
-font-weight="700"
-fill="white">
-
-UDAY SHINDE
-
-</text>
-
-<text
-x="100"
-y="170"
-font-size="28"
-font-family="Segoe UI"
-fill="#58A6FF">
-
-Computer Engineering Student
-
-</text>
-
-<text
-x="100"
-y="225"
-font-size="22"
-font-family="Segoe UI"
-fill="#C9D1D9">
-
-Building software that solves real-world problems.
-
-</text>
-
-<rect
-x="100"
-y="270"
-rx="18"
-ry="18"
-width="145"
-height="42"
-fill="url(#blue)"/>
-
-<text
-x="132"
-y="298"
-font-size="17"
-font-family="Segoe UI"
-fill="white">
-
-Full Stack
-
-</text>
-
-<rect
-x="270"
-y="270"
-rx="18"
-ry="18"
-width="90"
-height="42"
-fill="#1F2937"/>
-
-<text
-x="300"
-y="298"
-font-size="17"
-fill="#C9D1D9">
-
-AI
-
-</text>
-
-<rect
-x="385"
-y="270"
-rx="18"
-ry="18"
-width="140"
-height="42"
-fill="#1F2937"/>
-
-<text
-x="415"
-y="298"
-font-size="17"
-fill="#C9D1D9">
-
-Backend
-
-</text>
-
-<rect
-x="550"
-y="270"
-rx="18"
-ry="18"
-width="170"
-height="42"
-fill="#1F2937"/>
-
-<text
-x="580"
-y="298"
-font-size="17"
-fill="#C9D1D9">
-
-Open Source
-
-</text>
-
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070D"/>
+      <stop offset="55%" stop-color="#0A0E1A"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+ 
+    <!-- Name gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="45%" stop-color="#5C9CFF"/>
+      <stop offset="100%" stop-color="#B15CFF"/>
+    </linearGradient>
+ 
+    <!-- Accent glow gradients -->
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B15CFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#B15CFF" stop-opacity="0"/>
+    </radialGradient>
+ 
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0078D4"/>
+      <stop offset="100%" stop-color="#7A3FE0"/>
+    </linearGradient>
+ 
+    <!-- Glow filter -->
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="strongGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+ 
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1C2333" stroke-width="1"/>
+    </pattern>
+ 
+    <clipPath id="roundedFrame">
+      <rect width="1600" height="420" rx="22" ry="22"/>
+    </clipPath>
+ 
+    <style>
+      .typewriter {
+        font-family: 'Courier New', monospace;
+        font-size: 24px;
+        fill: #7DE8FF;
+      }
+      .cursor {
+        animation: blink 1s steps(1) infinite;
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .scanline {
+        animation: scan 5s ease-in-out infinite;
+      }
+      @keyframes scan {
+        0% { transform: translateX(0); opacity: 0; }
+        10% { opacity: .6; }
+        50% { transform: translateX(1400px); opacity: .6; }
+        60% { opacity: 0; }
+        100% { transform: translateX(1400px); opacity: 0; }
+      }
+      .pill {
+        transition: opacity .3s ease;
+      }
+      .float {
+        animation: floaty 4s ease-in-out infinite;
+      }
+      @keyframes floaty {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+    </style>
+  </defs>
+ 
+  <g clip-path="url(#roundedFrame)">
+    <!-- base -->
+    <rect width="1600" height="420" fill="url(#bg)"/>
+    <rect width="1600" height="420" fill="url(#grid)"/>
+ 
+    <!-- ambient glows -->
+    <circle cx="1360" cy="60" r="260" fill="url(#glowCyan)"/>
+    <circle cx="220" cy="400" r="220" fill="url(#glowPurple)"/>
+ 
+    <!-- HUD corner brackets -->
+    <g stroke="#2A3550" stroke-width="2" opacity="0.8">
+      <path d="M 30 20 L 30 50 M 30 20 L 60 20" fill="none"/>
+      <path d="M 1570 20 L 1570 50 M 1570 20 L 1540 20" fill="none"/>
+      <path d="M 30 400 L 30 370 M 30 400 L 60 400" fill="none"/>
+      <path d="M 1570 400 L 1570 370 M 1570 400 L 1540 400" fill="none"/>
+    </g>
+ 
+    <!-- scanning line accent -->
+    <rect class="scanline" x="0" y="0" width="3" height="420" fill="#00F0FF" opacity="0.5"/>
+ 
+    <!-- terminal tag -->
+    <g transform="translate(100,55)">
+      <rect x="0" y="-24" width="230" height="30" rx="6" fill="#0D1421" stroke="#233047"/>
+      <circle cx="16" cy="-9" r="4" fill="#FF5F56"/>
+      <circle cx="32" cy="-9" r="4" fill="#FFBD2E"/>
+      <circle cx="48" cy="-9" r="4" fill="#27C93F"/>
+      <text x="66" y="-4" font-family="Courier New, monospace" font-size="13" fill="#6B7A99">~/udayx-dev</text>
+    </g>
+ 
+    <!-- Name -->
+    <text x="100" y="180" font-size="82" font-family="Segoe UI, Arial, sans-serif" font-weight="800" fill="url(#nameGrad)" filter="url(#strongGlow)">
+      UDAY SHINDE
+    </text>
+    <text x="100" y="180" font-size="82" font-family="Segoe UI, Arial, sans-serif" font-weight="800" fill="none" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="1.5">
+      UDAY SHINDE
+    </text>
+ 
+    <!-- Subtitle -->
+    <text x="103" y="215" font-size="24" font-family="Segoe UI, Arial, sans-serif" fill="#8FA3C7" letter-spacing="1.5">
+      Computer Engineering Student · Full Stack &amp; AI Builder
+    </text>
+ 
+    <!-- typewriter line -->
+    <g transform="translate(100,255)">
+      <text class="typewriter">
+        <tspan fill="#4FE0C4">&gt;</tspan> Building software that solves real-world problems<tspan class="cursor" fill="#7DE8FF">_</tspan>
+      </text>
+    </g>
+ 
+    <!-- Skill pills -->
+    <g class="float" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">
+      <g class="pill">
+        <rect x="100" y="300" rx="20" ry="20" width="150" height="44" fill="url(#pillGrad)" filter="url(#softGlow)"/>
+        <text x="127" y="328" fill="white">Full Stack</text>
+      </g>
+      <g class="pill">
+        <rect x="266" y="300" rx="20" ry="20" width="96" height="44" fill="#101827" stroke="#00F0FF" stroke-opacity="0.5"/>
+        <text x="296" y="328" fill="#7DE8FF">AI</text>
+      </g>
+      <g class="pill">
+        <rect x="378" y="300" rx="20" ry="20" width="148" height="44" fill="#101827" stroke="#B15CFF" stroke-opacity="0.5"/>
+        <text x="410" y="328" fill="#D6B4FF">Backend</text>
+      </g>
+      <g class="pill">
+        <rect x="542" y="300" rx="20" ry="20" width="182" height="44" fill="#101827" stroke="#4FE0C4" stroke-opacity="0.5"/>
+        <text x="574" y="328" fill="#8FF3DD">Open Source</text>
+      </g>
+    </g>
+ 
+    <!-- bottom divider with gradient -->
+    <line x1="0" y1="380" x2="1600" y2="380" stroke="#1C2333" stroke-width="1"/>
+    <text x="100" y="405" font-family="Courier New, monospace" font-size="13" fill="#4A5773">
+      Student Coordinator · Developers Club (700+ members)  |  Pune, India
+    </text>
+  </g>
 </svg>
