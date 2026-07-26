@@ -4,9 +4,9 @@
   <img src="assets/banners/banners.svg" width="100%" alt="Banner"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/logos/udayx-logo.svg" width="300" alt="UDAYX"/>
-</p>
+</p> -->
 
 <p align="center">
 
