@@ -1,0 +1,22 @@
+<svg width="300" height="90" xmlns="http://www.w3.org/2000/svg">
+
+<rect
+width="300"
+height="90"
+rx="18"
+fill="#0D1117"
+stroke="#30363D"/>
+
+<text
+x="35"
+y="58"
+font-size="34"
+font-family="Segoe UI"
+font-weight="700"
+fill="#FFFFFF">
+
+UDAYX
+
+</text>
+
+</svg>

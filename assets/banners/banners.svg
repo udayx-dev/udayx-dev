@@ -1,0 +1,143 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0" x2="1">
+
+<stop offset="0%" stop-color="#0D1117"/>
+
+<stop offset="100%" stop-color="#111827"/>
+
+</linearGradient>
+
+<linearGradient id="blue" x1="0" x2="1">
+
+<stop offset="0%" stop-color="#0078D4"/>
+
+<stop offset="100%" stop-color="#5C2D91"/>
+
+</linearGradient>
+
+</defs>
+
+<rect width="1600" height="420" fill="url(#bg)"/>
+
+<circle cx="1350" cy="50" r="220" fill="#0078D4" opacity=".08"/>
+
+<circle cx="250" cy="370" r="170" fill="#5C2D91" opacity=".07"/>
+
+<line x1="0" y1="350" x2="1600" y2="350"
+stroke="#30363D"/>
+
+<text
+x="100"
+y="120"
+font-size="70"
+font-family="Segoe UI"
+font-weight="700"
+fill="white">
+
+UDAY SHINDE
+
+</text>
+
+<text
+x="100"
+y="170"
+font-size="28"
+font-family="Segoe UI"
+fill="#58A6FF">
+
+Computer Engineering Student
+
+</text>
+
+<text
+x="100"
+y="225"
+font-size="22"
+font-family="Segoe UI"
+fill="#C9D1D9">
+
+Building software that solves real-world problems.
+
+</text>
+
+<rect
+x="100"
+y="270"
+rx="18"
+ry="18"
+width="145"
+height="42"
+fill="url(#blue)"/>
+
+<text
+x="132"
+y="298"
+font-size="17"
+font-family="Segoe UI"
+fill="white">
+
+Full Stack
+
+</text>
+
+<rect
+x="270"
+y="270"
+rx="18"
+ry="18"
+width="90"
+height="42"
+fill="#1F2937"/>
+
+<text
+x="300"
+y="298"
+font-size="17"
+fill="#C9D1D9">
+
+AI
+
+</text>
+
+<rect
+x="385"
+y="270"
+rx="18"
+ry="18"
+width="140"
+height="42"
+fill="#1F2937"/>
+
+<text
+x="415"
+y="298"
+font-size="17"
+fill="#C9D1D9">
+
+Backend
+
+</text>
+
+<rect
+x="550"
+y="270"
+rx="18"
+ry="18"
+width="170"
+height="42"
+fill="#1F2937"/>
+
+<text
+x="580"
+y="298"
+font-size="17"
+fill="#C9D1D9">
+
+Open Source
+
+</text>
+
+</svg>
