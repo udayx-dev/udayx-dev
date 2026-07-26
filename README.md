@@ -36,6 +36,10 @@ Building software that solves real-world problems.
 
 ---
 
+<img src="https://ssr-contributions-svg.vercel.app/_/udayx-dev?chart=3dbar&format=svg&animation=wave&weeks=30&theme=github-dark" width="100%">
+
+---
+
 ## About
 
 I'm **Uday Shinde**, a Computer Engineering student passionate about building production-ready software.
