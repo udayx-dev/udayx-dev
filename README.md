@@ -36,7 +36,7 @@ Building software that solves real-world problems.
 
 ---
 
-<img src="https://ssr-contributions-svg.vercel.app/_/udayx-dev?chart=3dbar&format=svg&animation=wave&weeks=30&theme=github-dark" width="100%">
+<img src="https://ssr-contributions-svg.vercel.app/_/udayx-dev?chart=3dbar&gap=0.6&scale=2&flatten=0&gradient=false&legend=true&legendPosition=bottomLeft&legendDirection=row&strokeWidth=2&strokeColor=222222&animation=wave&animation_duration=3&animation_delay=0.03&animation_amplitude=24&animation_frequency=0.1&animation_wave_center=19_3&format=svg&weeks=40&theme=neon_horizon&dark=true" width="100%" alt="GitHub Contribution Graph">
 
 ---
 
