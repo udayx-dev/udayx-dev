@@ -1,22 +1,54 @@
 # Uday Shinde
 
-B.Tech CSE student at G H Raisoni International Skill Tech University (GH RISTU), Pune, building production-ready software.
+<!-- Text heading is intentional: the header image below is decoration, not the only name on the page. -->
 
-Interests: Full Stack Development, Backend Engineering, Artificial Intelligence, and Software Architecture.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Uday%20Shinde&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Uday Shinde" />
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://udayx.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/udayx-dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/udayxshinde)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF4FA3&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;AI+Enthusiast;Backend+Engineer;Building+InternTrack" alt="Typing animation" />
+</p>
 
----
+<p align="center">
+  <a href="https://udayx.dev"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/udayx-dev"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/udayxshinde"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://komarev.com/ghpvc/?username=udayx-dev&style=for-the-badge&color=C026D3" alt="Profile views" />
+</p>
 
-## Current Focus
+## About Me
 
-- Building **InternTrack**
-- Developing AI-powered applications
-- Learning System Design
-- Improving Backend Engineering
-- Preparing for Software Engineering internships
+```javascript
+const uday = {
+  degree: "B.Tech CSE, GH RISTU Pune (2028)",
+  focus: ["Full Stack Development", "Backend Engineering", "AI"],
+  currentlyBuilding: "InternTrack",
+  learning: "System Design",
+  goal: "Software Engineering internship with full-time conversion",
+  philosophy: "Build software that is simple, maintainable, scalable and useful."
+};
+```
+
+- 🚀 Building **InternTrack**
+- 🤖 Developing AI-powered applications
+- 📚 Learning System Design
+- ⚙️ Improving Backend Engineering
+- 💼 Preparing for Software Engineering internships
+
+## Tech Stack
+
+| Category | Tools |
+| --- | --- |
+| Languages | Python, C++, Java, JavaScript |
+| Frontend | React, Tailwind |
+| Backend | Node.js, Express, Flask |
+| Databases | MongoDB, MySQL, PostgreSQL |
+| Tools | Docker, Git, GitHub, VS Code, Postman |
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,javascript,react,nodejs,express,flask,mongodb,mysql,postgresql,docker,git,github,vscode&perline=8" alt="Tech stack icons" />
+</p>
 
 ## Featured Projects
 
@@ -25,7 +57,6 @@ Interests: Full Stack Development, Backend Engineering, Artificial Intelligence,
 Modern job application tracking platform.
 
 **Tech:** React, Express, MongoDB, Tailwind
-
 **Highlights:** Authentication, CRUD, Dashboard, Responsive UI
 
 - [Live Demo](https://intern-track-phi.vercel.app)
@@ -36,14 +67,16 @@ Modern job application tracking platform.
 AI-powered attendance system using face recognition.
 
 **Tech:** Python, Flask, OpenCV, SQLite
-
 **Highlights:** Face Recognition, Analytics, Attendance Reports
 
 - [Repository](https://github.com/udayx-dev/smart-attendance-system)
 
-## Tech Stack
+### More Projects
 
-Python, C++, Java, JavaScript, React, Node.js, Express, Flask, MongoDB, MySQL, Docker, Git, GitHub, VS Code
+- [uday-portfolio-fullstack](https://github.com/udayx-dev/uday-portfolio-fullstack) — Full-stack personal portfolio with AI chatbot, PostgreSQL, contact system and admin dashboard
+- [NexaBank](https://github.com/udayx-dev/NexaBank)
+- [Nova_Assistant](https://github.com/udayx-dev/Nova_Assistant) — Voice-controlled Python assistant
+- [crypto-address-collection-system](https://github.com/udayx-dev/crypto-address-collection-system)
 
 ## Achievements
 
@@ -52,11 +85,41 @@ Python, C++, Java, JavaScript, React, Node.js, Express, Flask, MongoDB, MySQL, D
 - Student Coordinator — Developer's Club
 - Industry Mentorship under Sashikant Kulkarni
 
-## Engineering Philosophy
+## GitHub Stats
 
-> Build software that is simple, maintainable, scalable and useful.
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=udayx-dev&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF4FA3&icon_color=C026D3&text_color=C9D1D9" alt="GitHub stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=udayx-dev&layout=compact&hide_border=true&bg_color=0D1117&title_color=FF4FA3&text_color=C9D1D9" alt="Top languages" />
+</p>
 
-Good software is not measured by the amount of code written but by the value it creates.
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=udayx-dev&hide_border=true&background=0D1117&ring=FF4FA3&fire=C026D3&currStreakLabel=FF4FA3&sideNums=C9D1D9&currStreakNum=FFFFFF&sideLabels=8FA3C7&dates=6B7A99&stroke=0D1117" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=udayx-dev&hide_border=true&bg_color=0D1117&color=C9D1D9&line=FF4FA3&point=C026D3&area=true" alt="Activity graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=udayx-dev&theme=radical&no-frame=true&no-bg=true&margin-w=15&row=1" alt="GitHub trophies" />
+</p>
+
+## Contribution Snake
+
+<!-- Generated by .github/workflows/snake.yml (Platane/snk).
+     The snake SVG appears after that workflow runs once and pushes to the output branch. -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/udayx-dev/udayx-dev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/udayx-dev/udayx-dev/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/udayx-dev/udayx-dev/output/github-contribution-grid-snake.svg" />
+</picture>
+
+## Random Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random developer quote" />
+</p>
 
 ---
 
